@@ -1,0 +1,46 @@
+.card {
+    &--icon {
+        display: flex;
+        &__img {
+            margin-right: 20px;
+        }
+        &__text {
+            h2 {
+                color: $secondry-color;
+                margin-bottom: 12px;
+            }
+            p {
+                color: $dark-font;
+                width: 70%;
+            }
+        }
+    }
+    &--iconResources{
+        &__img{
+            img{
+                width:342px
+            }
+        }
+        &__text {
+            h3 {
+                color: $black-color;
+                margin-bottom: 10px;
+                margin-top: 15px;
+                margin-left: 25px;
+            }
+            p {
+                color: $dark-font;
+                width: 70%;
+                margin-left: 25px;
+                margin-bottom: 20px;
+            }
+        }
+        
+    }
+        &--hover {
+            &:hover {
+                @include eleHover($white-color);
+                box-shadow: 4px 4px 5px #cacaca;
+            }
+        }
+}

@@ -1,0 +1,13 @@
+.icon1{
+    display: flex;
+    &__logo{
+        padding: 0;
+        width: 180px;
+        height: 150px;
+        border: 1px solid $dark-font;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
